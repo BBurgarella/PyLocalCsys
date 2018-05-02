@@ -108,7 +108,6 @@ class CSYS:
 		self.Ax = Norm(TupleSoustraction(self.P1,self.P0))
 		Diff = TupleSoustraction([1,0,0],self.Ax,)
 		# definition of the Y axis
-		# For now, the Y axis is supposed to remain [0,1,0]
 		self.Ay = Norm(TupleAddition([0,1,0],Diff))
 		#definition of the Z axis
 		self.Az = Norm(VectorialProduct(self.Ax,self.Ay))
