@@ -5,7 +5,7 @@ PyLocalCsys was created by Boris Burgarella and is released under the General Pu
 <b>This program shall only be used on bottom-up mesh parts, results on other type of parts have not been validated and therefore
 could give unwanted results. Feel free to ask for a push of your new version if you tested / implemented something that works for any type of mesh</b>
 
-Dependencies (usually included in Abaqus and / or default python instalations):
+Dependencies (usually included in Abaqus and / or default python installations):
 - numpy
 - sys
 - os
